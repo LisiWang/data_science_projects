@@ -1,19 +1,21 @@
 Recently, I completed the intensive 8-week Data Science Fellowship at The Data Incubator (TDI), during which I worked on the following weekly projects:
-## 1. Who are the most well-connected individuals and frequent pairs?
+## 1. Who are the most well-connected individuals?
 - **What I did:**
   - Parsed photo captions from New York Social Diary and constructed network of NYC's social elites
 - **Data:** 1K+ captions from newyorksocialdiary.com
 - **Main packages:** request, spacy, networkx
-
+<p align="center">
 <img src="viz/graph.png" height="300">
+</p>
 
 ## 2. Can I predict star ratings of businesses?
 - **What I did:**
   - Fine-tuned boosting and bagging ensemble models to predict star-ratings of businesses, utilizing KNeighborsRegressor, Ridge, RandomForestRegressor, and custom regressors
 - **Data:** 37K+ businesses from Yelp open dataset
 - **Main packages:** scikit-learn, pandas, numpy
-
+<p align="center">
 <img src="viz/ml.png" height="300">
+</p>
 
 ## 3. 
 - **What I did:** 
@@ -25,16 +27,18 @@ Recently, I completed the intensive 8-week Data Science Fellowship at The Data I
  - Analyzed word polarity (indicating 1- or 5-star reviews) using TfidfVectorizer and MultinomialNB
 - **Data:** 253K+ reviews from Yelp open dataset
 - **Main packages:** scikit-learn, pandas
-
+<p align="center">
 <img src="viz/nlp.png" height="300">
+</p>
 
 ## 5. How to model temperature over time?
 - **What I did:**
   - Modelled time series of temperature grouped by 5 cities using custom Fourier transformer and LinearRegression
 - **Data:** 392K+ observations
 - **Main packages:** scikit-learn, pandas, numpy
-
+<p align="center">
 <img src="viz/ts.png" height="300">
+</p>
 
 ## 6. Can I "profile" users?
 - **What I did:**
@@ -46,10 +50,11 @@ Recently, I completed the intensive 8-week Data Science Fellowship at The Data I
   - Fine-tuned HashingTF and LogisticRegression to predict if given post has most popular tags based on content
 - **Data:** Same as 6
 - **Main packages:** spark ml
-## 8. Can deep learning help with labeling images?
+## 8. How to improve deep learning models for image classification?
 - **What I did:**
-  - built CNN and dense neural network on top of pre-trained deep neural network (inception model), improved image classification accuracy from 71% to 84%
+  - Built CNN and transfer learning model (inception model + dense neural network), improved image classification accuracy from 71% to 84%
 - **Data:** 60K images from CIFAR-10 dataset
 - **Main packages:** tensorflow, keras
-
+<p align="center">
 <img src="viz/tf.png" height="300">
+</p>
