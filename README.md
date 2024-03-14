@@ -4,11 +4,17 @@ Recently, I completed the intensive 8-week Data Science Fellowship at The Data I
   - Parsed photo captions from New York Social Diary and constructed network of NYC's social elites
 - **Data:** 1K+ captions from newyorksocialdiary.com
 - **Main packages:** request, spacy, networkx
+
+<img src="viz/graph.png" height="300">
+
 ## 2. Can I predict star ratings of businesses?
 - **What I did:**
   - Fine-tuned boosting and bagging ensemble models to predict star-ratings of businesses, utilizing KNeighborsRegressor, Ridge, RandomForestRegressor, and custom regressors
 - **Data:** 37K+ businesses from Yelp open dataset
 - **Main packages:** scikit-learn, pandas, numpy
+
+<img src="viz/ml.png" height="300">
+
 ## 3. 
 - **What I did:** 
 - **Data:** 
@@ -19,11 +25,17 @@ Recently, I completed the intensive 8-week Data Science Fellowship at The Data I
  - Analyzed word polarity (indicating 1- or 5-star reviews) using TfidfVectorizer and MultinomialNB
 - **Data:** 253K+ reviews from Yelp open dataset
 - **Main packages:** scikit-learn, pandas
+
+<img src="viz/nlp.png" height="300">
+
 ## 5. How to model temperature over time?
 - **What I did:**
   - Modelled time series of temperature grouped by 5 cities using custom Fourier transformer and LinearRegression
 - **Data:** 392K+ observations
 - **Main packages:** scikit-learn, pandas, numpy
+
+<img src="viz/ts.png" height="300">
+
 ## 6. Can I "profile" users?
 - **What I did:**
   - Leveraged distributed computing to wrangle 10 gigabytes of Stack Exchange posts and users, in order to identify users' activity preference and active duration
@@ -39,3 +51,5 @@ Recently, I completed the intensive 8-week Data Science Fellowship at The Data I
   - built CNN and dense neural network on top of pre-trained deep neural network (inception model), improved image classification accuracy from 71% to 84%
 - **Data:** 60K images from CIFAR-10 dataset
 - **Main packages:** tensorflow, keras
+
+<img src="viz/tf.png" height="300">
