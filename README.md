@@ -16,19 +16,21 @@ Recently, I completed the intensive 8-week Data Science Fellowship at The Data I
 <p align="center">
 <img src="viz/ml.png" height="240">
 </p>
-<br>
 
-## 3. 
-- **What I did:** 
-- **Data:** 
+## 3. Which violations are more common for which cuisines?
+- **What I did:** Analyzed data in SQL with CTEs to aggregate most recent restaurant inspections per zipcode/borough and normalize conditional probabilities of specific violations per cuisine
+- **Data:** 531K+ observations from [NYC open data](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data)
 - **Main packages:** sql
+```math
+Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuisine) \over P(Specific\ violation\ |\ All\ cuisines)}
+```
 
 ## 4. With NLP, can I predict star ratings of businesses?
 - **What I did:**
  - Predicted star ratings of businesses from review texts by fine-tuning word vectorizers and SGDRegressor, increased R<sup>2</sup> (coefficient of determination) from 0.53 to 0.58
  - Analyzed word polarity (indicating 1- or 5-star reviews) using TfidfVectorizer and MultinomialNB
 - **Data:** 253K+ reviews from [Yelp open dataset](https://www.yelp.com/dataset)
-- **Main packages:** scikit-learn, pandas
+- **Main packages:** scikit-learn, pandas, numpy
 <p align="center">
 <img src="viz/nlp.png" height="300">
 </p>
@@ -58,7 +60,7 @@ Recently, I completed the intensive 8-week Data Science Fellowship at The Data I
 - **What I did:**
   - Built CNN and transfer learning model ([inception](https://github.com/tensorflow/tpu/tree/906be5267106a72d51d682d6fda15210118840cf/models/experimental/inception) deep learning + dense neural network), improved image classification accuracy from 71% to 84%
 - **Data:** 60K images from [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
-- **Main packages:** tensorflow, keras
+- **Main packages:** tensorflow, keras, scikit-learn
 <p align="center">
 <img src="viz/tf.png" height="300">
 </p>
