@@ -48,13 +48,13 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
 - **What I did:**
   - Leveraged distributed computing to wrangle 10GB of Stack Exchange posts and users, in order to identify users' activity preference and active duration
 - **Data:** 24M+ posts & 4M+ users from [stackexchange.com](https://archive.org/details/stackexchange)
-- **Main packages:** spark rdd, spark dataframe
+- **Main packages:** pyspark rdd, pyspark dataframe
 
 ## 7. With NLP, is your post going to be popular?
 - **What I did:**
   - Fine-tuned HashingTF and LogisticRegression to predict if given post contains most popular tags based on post content
 - **Data:** 24M+ posts & 4M+ users from [stackexchange.com](https://archive.org/details/stackexchange)
-- **Main packages:** spark ml
+- **Main packages:** pyspark ml
 
 ## 8. How to improve neural networks for image classification?
 - **What I did:**
