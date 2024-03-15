@@ -60,7 +60,7 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
 - **What I did:**
   - Built CNN and transfer learning model ([inception](https://github.com/tensorflow/tpu/tree/906be5267106a72d51d682d6fda15210118840cf/models/experimental/inception) deep learning + dense neural network), improved image classification accuracy from 71% to 84%
 - **Data:** 60K images from [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
-- **Main packages:** tensorflow, keras, scikit-learn
+- **Main packages:** tensorflow, keras, numpy, scikit-learn
 <p align="center">
 <img src="viz/tf.png" height="300">
 </p>
