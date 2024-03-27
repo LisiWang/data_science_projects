@@ -1,4 +1,4 @@
-Recently, I completed the intensive 8-week Data Science Fellowship at The Data Incubator (TDI), during which I worked on the following weekly projects:
+Recently, I completed the intensive Data Science Fellowship at The Data Incubator (TDI), during which I worked on the following **weekly projects**:
 ## 1. Who are the most well-connected individuals?
 - **What I did:**
   - Parsed photo captions from New York Social Diary and constructed network of NYC's social elites, to identify most well-connected individuals and frequent pairs
