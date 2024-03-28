@@ -1,4 +1,5 @@
-Recently, I completed the intensive Data Science Fellowship at The Data Incubator (TDI), during which I worked on the following **weekly projects**:
+Recently, I completed the intensive Data Science Fellowship at The Data Incubator (TDI), during which I worked on the following **weekly projects**: \
+In case you're curious about my **capstone project**, please go to [this repo](https://github.com/LisiWang/tdi_capstone_project.git)
 ## 1. Who are the most well-connected individuals?
 - **What I did:**
   - Parsed photo captions from New York Social Diary and constructed network of NYC's social elites, to identify most well-connected individuals and frequent pairs
