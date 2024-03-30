@@ -19,7 +19,8 @@ In case you're curious about my **capstone project**, please go to [this repo](h
 </p>
 
 ## 3. Which violations are more common for which cuisines?
-- **What I did:** Analyzed data in SQL with CTEs to aggregate most recent restaurant inspections per zipcode/borough and normalize conditional probabilities of specific violations per cuisine
+- **What I did:**
+  - Analyzed data in SQL with CTEs to aggregate most recent restaurant inspections per zipcode/borough and normalize conditional probabilities of specific violations per cuisine
 - **Data:** 531K+ observations from [NYC open data](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data)
 - **Main packages:** sql
 ```math
@@ -28,8 +29,8 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
 
 ## 4. With NLP, can I predict star ratings of businesses?
 - **What I did:**
- - Predicted star ratings of businesses from review texts by fine-tuning word vectorizers and SGDRegressor, increased R<sup>2</sup> (coefficient of determination) from 0.53 to 0.58
- - Analyzed word polarity (indicating 1- or 5-star reviews) using TfidfVectorizer and MultinomialNB
+  - Predicted star ratings of businesses from review texts by fine-tuning word vectorizers and SGDRegressor, increased R<sup>2</sup> (coefficient of determination) from 0.53 to 0.58
+  - Analyzed word polarity (indicating 1- or 5-star reviews) using TfidfVectorizer and MultinomialNB
 - **Data:** 253K+ reviews from [Yelp open dataset](https://www.yelp.com/dataset)
 - **Main packages:** scikit-learn, pandas, numpy
 <p align="center">
