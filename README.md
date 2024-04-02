@@ -6,7 +6,7 @@ In case you're curious about my **capstone project**, please go to [this repo](h
 - **Data:** 1K+ captions from [newyorksocialdiary.com](https://www.newyorksocialdiary.com/)
 - **Main packages:** request, spacy, networkx
 <p align="center">
-<img src="viz/graph.png" height="300">
+<img src="viz/graph.png" height="400">
 </p>
 
 ## 2. Can I predict star ratings of businesses?
