@@ -1,12 +1,13 @@
-Recently, I completed the intensive Data Science Fellowship at The Data Incubator (TDI), during which I worked on the following **weekly projects**: \
+Recently, I completed the intensive Data Science Fellowship at The Data Incubator (TDI), during which I worked on the following **weekly projects**. They are organized as **what I did, data, main packages, *either* visualization *or* code snippet**: \
 In case you're curious about my **capstone project**, please go to [this repo](https://github.com/LisiWang/tdi_capstone_project.git).
 ## 1. Who are the most well-connected individuals?
 - **What I did:**
   - Parsed photo captions from New York Social Diary and constructed network of NYC's social elites, to identify most well-connected individuals and frequent pairs
 - **Data:** 1K+ captions from [newyorksocialdiary.com](https://www.newyorksocialdiary.com/)
 - **Main packages:** request, spacy, networkx
+- **Visualization:**
 <p align="center">
-<img src="[viz/graph.png](https://github.com/LisiWang/tdi_weekly_projects/blob/8dff37d8bb16930421865c24ad90ac1d119876fb/viz/ml.png)" height="400">
+<img src="https://github.com/LisiWang/tdi_weekly_projects/blob/8dff37d8bb16930421865c24ad90ac1d119876fb/viz/graph.png" height="400">
 </p>
 
 ## 2. Can I predict star ratings of businesses?
@@ -14,18 +15,21 @@ In case you're curious about my **capstone project**, please go to [this repo](h
   - Fine-tuned boosting and bagging ensemble models to predict star-ratings of businesses, utilizing KNN, ridge, random forest, and custom regressors
 - **Data:** 37K+ businesses from [Yelp open dataset](https://www.yelp.com/dataset)
 - **Main packages:** scikit-learn, pandas, numpy
+- **Visualization:**
 <p align="center">
-<img src="viz/ml.png" height="240">
+<img src="https://github.com/LisiWang/tdi_weekly_projects/blob/8dff37d8bb16930421865c24ad90ac1d119876fb/viz/ml.png" height="240">
 </p>
 
 ## 3. Which violations are more common for which cuisines?
 - **What I did:**
   - Analyzed data in SQL with CTEs to aggregate most recent restaurant inspections per zipcode/borough and normalize conditional probabilities of specific violations per cuisine
-- **Data:** 531K+ observations from [NYC open data](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data)
-- **Main packages:** sql
 ```math
 Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuisine) \over P(Specific\ violation\ |\ All\ cuisines)}
 ```
+- **Data:** 531K+ observations from [NYC open data](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data)
+- **Main packages:** sql
+- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/aaeccb1d35fdbfaeed69617a8586108a0cd2ad19/snippets/sql.ipynb)**
+<br>
 
 ## 4. With NLP, can I predict star ratings of businesses?
 - **What I did:**
