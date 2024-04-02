@@ -11,7 +11,7 @@ In case you're curious about my **capstone project**, please go to [this repo](h
 
 ## 2. Can I predict star ratings of businesses?
 - **What I did:**
-  - Fine-tuned boosting and bagging ensemble models to predict star-ratings of businesses, utilizing KNeighborsRegressor, Ridge, RandomForestRegressor, and custom regressors
+  - Fine-tuned boosting and bagging ensemble models to predict star-ratings of businesses, utilizing KNN, ridge, random forest, and custom regressors
 - **Data:** 37K+ businesses from [Yelp open dataset](https://www.yelp.com/dataset)
 - **Main packages:** scikit-learn, pandas, numpy
 <p align="center">
