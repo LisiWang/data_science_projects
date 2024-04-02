@@ -28,7 +28,7 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
 ```
 - **Data:** 531K+ observations from [NYC open data](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data)
 - **Main packages:** sql
-- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/aaeccb1d35fdbfaeed69617a8586108a0cd2ad19/snippets/sql.ipynb)**
+- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/6f0bc2115bb64f1a76548602b4f6f29121686c1d/snippets/sql.ipynb)**
 <br>
 
 ## 4. With NLP, can I predict star ratings of businesses?
