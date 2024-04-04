@@ -29,12 +29,11 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
 - **Data:** 531K+ observations from [NYC open data](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data)
 - **Main packages:** sql
 - **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/6f0bc2115bb64f1a76548602b4f6f29121686c1d/snippets/sql.ipynb)**
-<br>
 
 ## 4. With NLP, can I predict star ratings of businesses?
 - **What I did:**
-  - Predicted star ratings of businesses from review texts by fine-tuning word vectorizers and SGDRegressor, increased R<sup>2</sup> (coefficient of determination) from 0.53 to 0.58
-  - Analyzed word polarity (indicating 1- or 5-star reviews) using TfidfVectorizer and MultinomialNB
+  - Predicted star ratings of businesses from review texts by fine-tuning word vectorizers and stochastic gradient descent regressor, increased R<sup>2</sup> (coefficient of determination) from 0.53 to 0.58
+  - Analyzed word polarity (indicating 1- or 5-star reviews) using TF-IDF vectorizer and multinomial Naive Bayes classifier
 - **Data:** 253K+ reviews from [Yelp open dataset](https://www.yelp.com/dataset)
 - **Main packages:** scikit-learn, pandas, numpy
 <p align="center">
@@ -43,7 +42,7 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
 
 ## 5. How to model temperature over time?
 - **What I did:**
-  - Modeled time series of temperature grouped by 5 cities using custom Fourier transformer and LinearRegression
+  - Modeled time series of temperature grouped by 5 cities using custom Fourier transformer and linear regression
 - **Data:** 392K+ observations
 - **Main packages:** scikit-learn, pandas, numpy
 <p align="center">
@@ -55,10 +54,11 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
   - Leveraged distributed computing to wrangle 10GB of Stack Exchange posts and users, in order to identify users' activity preference and active duration
 - **Data:** 24M+ posts & 4M+ users from [stackexchange.com](https://archive.org/details/stackexchange)
 - **Main packages:** pyspark rdd, pyspark dataframe
+- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/6b02fb34d45ccc2164516091b0c2494f961109c2/snippets/spark_df.ipynb)**
 
 ## 7. With NLP, is your post going to be popular?
 - **What I did:**
-  - Fine-tuned HashingTF and LogisticRegression to predict if given post contains most popular tags based on post content
+  - Fine-tuned TF-IDF vectorizer and logistic regression to predict if given post contains most popular tags based on post content
 - **Data:** 24M+ posts & 4M+ users from [stackexchange.com](https://archive.org/details/stackexchange)
 - **Main packages:** pyspark ml
 
