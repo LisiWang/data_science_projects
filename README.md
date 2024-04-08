@@ -36,6 +36,7 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
   - Analyzed word polarity (indicating 1- or 5-star reviews) using TF-IDF vectorizer and multinomial Naive Bayes classifier
 - **Data:** 253K+ reviews from [Yelp open dataset](https://www.yelp.com/dataset)
 - **Main packages:** scikit-learn, pandas, numpy
+- **Visualization:**
 <p align="center">
 <img src="viz/nlp.png" height="300">
 </p>
@@ -45,6 +46,7 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
   - Modeled time series of temperature grouped by 5 cities using custom Fourier transformer and linear regression
 - **Data:** 392K+ observations
 - **Main packages:** scikit-learn, pandas, numpy
+- **Visualization:**
 <p align="center">
 <img src="viz/ts.png" height="300">
 </p>
@@ -70,3 +72,5 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
 <p align="center">
 <img src="viz/tf.png" height="300">
 </p>
+
+- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/f84915d644556d106e28896f11a974cfd8386dd9/code_snippets/tf.ipynb)**
