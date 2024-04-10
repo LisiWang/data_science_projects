@@ -7,7 +7,7 @@ In case you're curious about my **capstone project**, please go to [this repo](h
 - **Main packages:** request, spacy, networkx
 - **Visualization:**
 <p align="center">
-<img src="https://github.com/LisiWang/tdi_weekly_projects/blob/8dff37d8bb16930421865c24ad90ac1d119876fb/viz/graph.png" height="400">
+<img src="https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/visualizations/graph.png" height="400">
 </p>
 
 ## 2. Can I predict star ratings of businesses?
@@ -17,7 +17,7 @@ In case you're curious about my **capstone project**, please go to [this repo](h
 - **Main packages:** scikit-learn, pandas, numpy
 - **Visualization:**
 <p align="center">
-<img src="https://github.com/LisiWang/tdi_weekly_projects/blob/8dff37d8bb16930421865c24ad90ac1d119876fb/viz/ml.png" height="240">
+<img src="https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/visualizations/ml.png" height="240">
 </p>
 
 ## 3. Which violations are more common for which cuisines?
@@ -28,7 +28,7 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
 ```
 - **Data:** 531K+ observations from [NYC open data](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data)
 - **Main packages:** sql
-- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/6f0bc2115bb64f1a76548602b4f6f29121686c1d/snippets/sql.ipynb)**
+- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/code_snippets/sql.ipynb)**
 
 ## 4. With NLP, can I predict star ratings of businesses?
 - **What I did:**
@@ -38,7 +38,7 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
 - **Main packages:** scikit-learn, pandas, numpy
 - **Visualization:**
 <p align="center">
-<img src="viz/nlp.png" height="300">
+<img src="https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/visualizations/nlp.png" height="300">
 </p>
 
 ## 5. How to model temperature over time?
@@ -48,7 +48,7 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
 - **Main packages:** scikit-learn, pandas, numpy
 - **Visualization:**
 <p align="center">
-<img src="viz/ts.png" height="300">
+<img src="https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/visualizations/ts.png" height="300">
 </p>
 
 ## 6. Can I "profile" users?
@@ -56,7 +56,7 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
   - Leveraged distributed computing to wrangle 10GB of Stack Exchange posts and users, in order to identify users' activity preference and active duration
 - **Data:** 24M+ posts & 4M+ users from [stackexchange.com](https://archive.org/details/stackexchange)
 - **Main packages:** pyspark rdd, pyspark dataframe
-- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/6b02fb34d45ccc2164516091b0c2494f961109c2/snippets/spark_df.ipynb)**
+- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/code_snippets/spark_df.ipynb)**
 
 ## 7. With NLP, is your post going to be popular?
 - **What I did:**
@@ -70,7 +70,7 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ cuis
 - **Data:** 60K images from [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 - **Main packages:** tensorflow, keras, numpy, scikit-learn
 <p align="center">
-<img src="viz/tf.png" height="300">
+<img src="https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/visualizations/tf.png" height="300">
 </p>
 
-- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/f84915d644556d106e28896f11a974cfd8386dd9/code_snippets/tf.ipynb)**
+- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/code_snippets/tf.ipynb)**
