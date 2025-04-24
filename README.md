@@ -8,14 +8,14 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ buis
 ```
 - **Data:** 530K+ compliance audits from [NYC open data](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data)
 - **Main packages:** sql
-- **[code_snippets/sql.ipynb](https://github.com/LisiWang/data_science_projects/blob/70d3f0b9d76d51846262e6b86236913001763be3/code_snippets/sql.ipynb)**
+- **[code_snippets/sql.ipynb](https://github.com/LisiWang/data_science_projects/blob/d722d2419d4b134fcea73a30fda018c8e259aa59/code_snippets/sql.ipynb)**
 
 ## PySpark: "Profiling" users
 - **What I did:**
   - Used Spark to analyze 10GB of online forum log data, uncovering patterns in user engagement metrics such as preference and retention rate.
 - **Data:** 24M+ posts & 4M+ users from [stackexchange.com](https://archive.org/details/stackexchange)
 - **Main packages:** pyspark rdd, pyspark dataframe
-- **[code_snippets/spark_df.ipynb](https://github.com/LisiWang/data_science_projects/blob/70d3f0b9d76d51846262e6b86236913001763be3/code_snippets/spark_df.ipynb)**
+- **[code_snippets/spark_df.ipynb](https://github.com/LisiWang/data_science_projects/blob/d722d2419d4b134fcea73a30fda018c8e259aa59/code_snippets/spark_df.ipynb)**
 
 ## ML: Predicting business ratings
 - **What I did:**
@@ -47,7 +47,7 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ buis
 <img src="https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/visualizations/tf.png" height="300">
 </p>
 
-- **[code_snippets/sql.ipynb](https://github.com/LisiWang/data_science_projects/blob/70d3f0b9d76d51846262e6b86236913001763be3/code_snippets/tf.ipynb)**
+- **[code_snippets/tf.ipynb](https://github.com/LisiWang/data_science_projects/blob/d722d2419d4b134fcea73a30fda018c8e259aa59/code_snippets/tf.ipynb)**
 
 ## Graph: Who are the most well-connected individuals?
 - **What I did:**
