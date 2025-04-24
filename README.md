@@ -8,18 +8,18 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ buis
 ```
 - **Data:** 530K+ compliance audits from [NYC open data](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data)
 - **Main packages:** sql
-- **[Code snippet](code_snippets/sql.ipynb)**
+- **[code_snippets/sql.ipynb](https://github.com/LisiWang/data_science_projects/blob/70d3f0b9d76d51846262e6b86236913001763be3/code_snippets/sql.ipynb)**
 
 ## PySpark: "Profiling" users
 - **What I did:**
   - Used Spark to analyze 10GB of online forum log data, uncovering patterns in user engagement metrics such as preference and retention rate.
 - **Data:** 24M+ posts & 4M+ users from [stackexchange.com](https://archive.org/details/stackexchange)
 - **Main packages:** pyspark rdd, pyspark dataframe
-- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/code_snippets/spark_df.ipynb)**
+- **[code_snippets/spark_df.ipynb](https://github.com/LisiWang/data_science_projects/blob/70d3f0b9d76d51846262e6b86236913001763be3/code_snippets/spark_df.ipynb)**
 
-## ML: Predicting star ratings of businesses
+## ML: Predicting business ratings
 - **What I did:**
-  - Fine-tuned boosting and bagging ensemble models to predict star-ratings of businesses, utilizing KNN, ridge, random forest, and custom regressors
+  - Fine-tuned boosting and bagging ensemble models to predict star ratings of businesses, utilizing KNN, ridge, random forest, and custom regressors.
 - **Data:** 37K+ businesses from [Yelp open dataset](https://www.yelp.com/dataset)
 - **Main packages:** scikit-learn, pandas, numpy
 - **Visualization:**
@@ -27,10 +27,10 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ buis
 <img src="https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/visualizations/ml.png" height="240">
 </p>
 
-## NLP: Predicting star ratings of businesses
+## NLP: Predicting businesses ratings
 - **What I did:**
-  - Predicted star ratings of businesses from review texts by fine-tuning word vectorizers and stochastic gradient descent regressor, increased R<sup>2</sup> (coefficient of determination) from 0.53 to 0.58
-  - Analyzed word polarity (indicating 1- or 5-star reviews) using TF-IDF vectorizer and multinomial Naive Bayes classifier
+  - Predicted star ratings of businesses from review texts by fine-tuning word vectorizers and stochastic gradient descent regressor, increasing R<sup>2</sup> from 0.53 to 0.58.
+  - Analyzed word polarity using TF-IDF vectorizer and multinomial Naive Bayes classifier.
 - **Data:** 253K+ reviews from [Yelp open dataset](https://www.yelp.com/dataset)
 - **Main packages:** scikit-learn, pandas, numpy
 - **Visualization:**
@@ -47,7 +47,8 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ buis
 <img src="https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/visualizations/tf.png" height="300">
 </p>
 
-- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/code_snippets/tf.ipynb)**
+- **[code_snippets/sql.ipynb](https://github.com/LisiWang/data_science_projects/blob/70d3f0b9d76d51846262e6b86236913001763be3/code_snippets/tf.ipynb)**
+
 ## Graph: Who are the most well-connected individuals?
 - **What I did:**
   - Parsed photo captions from New York Social Diary and constructed network of NYC's social elites, to identify most well-connected individuals and frequent pairs
