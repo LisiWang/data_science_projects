@@ -1,4 +1,4 @@
-The following projects are organized as **what I did, data, main packages, *either* visualization *or* code snippet**: \
+The following projects are organized as **what I did, data, main packages, *either* visualization *or* code snippet**:
 
 ## SQL: Which violations are more common for which business types?
 - **What I did:**
@@ -8,7 +8,7 @@ Normalized\ conditional\ probability = {P(Specific\ violation\ |\ Specific\ buis
 ```
 - **Data:** 530K+ compliance audits from [NYC open data](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data)
 - **Main packages:** sql
-- **[Code snippet](https://github.com/LisiWang/tdi_weekly_projects/blob/114b06a0068ce0a84d3275d9c6f41798e95e7f0b/code_snippets/sql.ipynb)**
+- **[Code snippet](code_snippets/sql.ipynb)**
 
 ## PySpark: "Profiling" users
 - **What I did:**
